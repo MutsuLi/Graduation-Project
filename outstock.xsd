@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="outstock" targetNamespace="http://tempuri.org/outstock.xsd" xmlns:mstns="http://tempuri.org/outstock.xsd" xmlns="http://tempuri.org/outstock.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="outstock" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="outstock" msprop:Generator_UserDSName="outstock">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="outstock" msprop:Generator_TableClassName="outstockDataTable" msprop:Generator_TableVarName="tableoutstock" msprop:Generator_RowChangedName="outstockRowChanged" msprop:Generator_TablePropName="_outstock" msprop:Generator_RowDeletingName="outstockRowDeleting" msprop:Generator_RowChangingName="outstockRowChanging" msprop:Generator_RowEvHandlerName="outstockRowChangeEventHandler" msprop:Generator_RowDeletedName="outstockRowDeleted" msprop:Generator_RowClassName="outstockRow" msprop:Generator_UserTableName="outstock" msprop:Generator_RowEvArgName="outstockRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="device_id" msprop:Generator_ColumnVarNameInTable="columndevice_id" msprop:Generator_ColumnPropNameInRow="device_id" msprop:Generator_ColumnPropNameInTable="device_idColumn" msprop:Generator_UserColumnName="device_id" type="xs:string" minOccurs="0" />
+              <xs:element name="name" msprop:Generator_ColumnVarNameInTable="columnname" msprop:Generator_ColumnPropNameInRow="name" msprop:Generator_ColumnPropNameInTable="nameColumn" msprop:Generator_UserColumnName="name" type="xs:string" minOccurs="0" />
+              <xs:element name="size" msprop:Generator_ColumnVarNameInTable="columnsize" msprop:Generator_ColumnPropNameInRow="size" msprop:Generator_ColumnPropNameInTable="sizeColumn" msprop:Generator_UserColumnName="size" type="xs:string" minOccurs="0" />
+              <xs:element name="brand" msprop:Generator_ColumnVarNameInTable="columnbrand" msprop:Generator_ColumnPropNameInRow="brand" msprop:Generator_ColumnPropNameInTable="brandColumn" msprop:Generator_UserColumnName="brand" type="xs:string" minOccurs="0" />
+              <xs:element name="sector_id" msprop:Generator_ColumnVarNameInTable="columnsector_id" msprop:Generator_ColumnPropNameInRow="sector_id" msprop:Generator_ColumnPropNameInTable="sector_idColumn" msprop:Generator_UserColumnName="sector_id" type="xs:string" minOccurs="0" />
+              <xs:element name="repair_num" msprop:Generator_ColumnVarNameInTable="columnrepair_num" msprop:Generator_ColumnPropNameInRow="repair_num" msprop:Generator_ColumnPropNameInTable="repair_numColumn" msprop:Generator_UserColumnName="repair_num" type="xs:int" minOccurs="0" />
+              <xs:element name="device_lifetime" msprop:Generator_ColumnVarNameInTable="columndevice_lifetime" msprop:Generator_ColumnPropNameInRow="device_lifetime" msprop:Generator_ColumnPropNameInTable="device_lifetimeColumn" msprop:Generator_UserColumnName="device_lifetime" type="xs:int" minOccurs="0" />
+              <xs:element name="in_date" msprop:Generator_ColumnVarNameInTable="columnin_date" msprop:Generator_ColumnPropNameInRow="in_date" msprop:Generator_ColumnPropNameInTable="in_dateColumn" msprop:Generator_UserColumnName="in_date" type="xs:string" minOccurs="0" />
+              <xs:element name="id" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnPropNameInTable="idColumn" msprop:Generator_UserColumnName="id" type="xs:int" minOccurs="0" />
+              <xs:element name="trans_id" msprop:Generator_ColumnVarNameInTable="columntrans_id" msprop:Generator_ColumnPropNameInRow="trans_id" msprop:Generator_ColumnPropNameInTable="trans_idColumn" msprop:Generator_UserColumnName="trans_id" type="xs:string" minOccurs="0" />
+              <xs:element name="trans_name" msprop:Generator_ColumnVarNameInTable="columntrans_name" msprop:Generator_ColumnPropNameInRow="trans_name" msprop:Generator_ColumnPropNameInTable="trans_nameColumn" msprop:Generator_UserColumnName="trans_name" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
